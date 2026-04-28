@@ -1,0 +1,8 @@
+/target/
+/testdata/
+/docs/
+.claude/
+*.tmp
+*.log
+*.dlq
+qwhyper-spool/
