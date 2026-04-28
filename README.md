@@ -4,9 +4,6 @@ High-throughput, low-memory streaming ingest for Quickwit.
 
 QwikStream is a Rust CLI for moving very large local files into Quickwit safely. It streams line by line, wraps plain text or CSV into JSON, keeps memory bounded, respects backpressure, retries transient Quickwit failures, supports checkpoint resume, and exposes metrics for production runs.
 
-> Binary name today: `qwhyper`.
-> Recommended GitHub topics: `quickwit`, `rust`, `streaming`, `ingestion`, `observability`, `cli`.
-
 ## Why It Exists
 
 Quickwit can ingest huge datasets, but real-world files are often messy: plain text, CSV, inconsistent NDJSON, oversized records, slow disks, Docker limits, network pressure, or temporary Quickwit failures. QwikStream adds a safe streaming layer in front of Quickwit so large ingest jobs can run with predictable RAM use and clear performance feedback.
