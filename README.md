@@ -351,8 +351,6 @@ On Windows PowerShell:
 .\install.ps1
 ```
 
-Set `QWHYPER_REPO=owner/repo` when installing from your own release repository.
-
 ## Optional Feature Flags
 
 The core binary stays portable and stable by default. Advanced deployments can build with feature flags:
